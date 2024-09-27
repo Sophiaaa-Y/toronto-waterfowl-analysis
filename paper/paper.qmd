@@ -46,7 +46,6 @@ library(kableExtra)
 
 #### Loading the Raw and Cleaned Dataset ####
 
-Observations_raw_data <- read_csv(here::here("data/raw_data/observations_raw_data.csv"))
 Observations_cleaned_data <- read_csv(here::here("data/analysis_data/observations_cleaned_data.csv"))
 ```
 
