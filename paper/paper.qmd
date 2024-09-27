@@ -44,7 +44,7 @@ library(opendatatoronto)
 library(ggplot2)
 library(kableExtra)
 
-#### Loading the Raw and Cleaned Dataset ####
+#### Loading Cleaned Dataset ####
 
 Observations_cleaned_data <- read_csv(here::here("data/analysis_data/observations_cleaned_data.csv"))
 ```
